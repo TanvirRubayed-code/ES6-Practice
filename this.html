@@ -23,8 +23,10 @@
         }
 
         myObj.getFullName();
+
         anotherObj.getFullName = myObj.getFullName;
         console.log(anotherObj.getFullName);
+        
         anotherObj.getFullName();
     </script>
     
